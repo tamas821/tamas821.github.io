@@ -1,0 +1,240 @@
+/* Paste this css to your style sheet file or under head tag */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(preloader_2.gif) center no-repeat #fff;
+}
+
+/*#bodycontent {
+    display: noe;    
+}*/
+
+
+.focim {
+	color: #49494D;    
+	text-align: center;
+}
+
+.nav ul {
+margin-top: 5px;
+ /*padding: 0px;   */
+}
+
+.nav li {
+  display: inline;  
+}
+
+.nav span {  
+  color: #64646B;
+  font-size: 16px;
+  font-weight: bold;
+  padding-right: 50px;  
+  text-transform: uppercase;
+  text-decoration: none;  
+}
+
+.nav .active {
+  color: black;    
+}
+
+.nav span:hover {
+  color: Black;
+  cursor: pointer;
+}
+
+.maintextgroup .nav span {    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    border-bottom: 0px;
+    border-top: 0px;
+    color: white;
+    float: right;
+    display: none;
+}
+
+.maintextgroup .nav span:hover {    
+    color: gray;
+}
+
+
+.maintextgroup .nav {    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    border-bottom: 0px;
+    border-top: 0px;
+    display: none;
+    background-color: #64646B;
+}
+
+.maintextgroup .nav .pull-right{    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 8px;
+    border-bottom: 0px;
+    border-top: 0px;
+    height: 40px;
+    background-color: #64646B;
+}
+
+.maintextgroup {
+    /*
+	background-color: #DCDCE0;
+	color: #393c3d;
+	*/
+	background-color: #64646B;
+	color: white;			
+    border-bottom: 1px solid #dbdbdb;    
+	border-top: 1px solid #dbdbdb;	
+	}
+	.maintextgroup h2 {		
+		font-size: 22px;
+		font-weight: bold;
+		line-height: 33px;
+        padding-top: 0px;
+        padding-bottom: 5px;        
+        margin-top: 0px;        
+        border-top: 0px;
+		/*background-color: red;*/
+	}
+	
+	/*
+	.maintextgroup h2 > span{		
+		font-weight: normal;		
+	}
+	*/
+	
+	.maintextgroup h3 {		
+		font-size: 19px;	
+		line-height: 28px;		
+		padding-top: 5px;	
+		padding-bottom: 0px;
+        margin: 0px;
+        border-bottom: 0px;
+        
+		/*background-color: red;*/
+	}		
+	
+	.maintextgroup > .container{
+        background-color: #64646B;	
+        padding-top: 20px;
+	    padding-bottom: 20px;
+	}
+
+.maintextgroup > .container .col-md-8{
+        padding-top: 0px;
+        margin-top: 0px;
+        border-top: 0px;
+}
+
+    .maintextgroup > .row{
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	
+    .maintextgroup .empty {
+    display: none;
+	background-color: #64646B;
+	color: #64646B;
+	padding: 9px;
+    border-bottom: none;    
+	border-top: none;	
+	}
+
+
+
+.learn-more {
+  background-color: white;
+  padding: 15px;
+  padding-top: 5px;
+  color: #49494D;
+	}
+	.learn-more h3 {
+		
+		font-family: 'Shift', sans-serif;
+		font-size: 18px;
+		font-weight: bold;
+		padding-top: 5px;
+		padding-bottom: 10px;
+	}
+	.learn-more p {		
+		font-size: 16px;
+	}
+	.learn-more a {
+		color: #00b0ff;
+	}
+	.learn-more a:hover {
+		color: #2E5CE6;
+		text-decoration: none;
+		
+	}
+	
+
+#publications {
+	display: none;
+}
+	
+.footer {
+    background-color: #64646B;
+	padding: 0px;
+	margin-top: 10px;
+	color: white;
+    	border-bottom: 1px solid #dbdbdb;    
+	border-top: 1px solid #dbdbdb;	
+	}
+
+#szeles {
+	padding-left: 50px;
+	padding-right: 50px;
+	margin: 0px;
+	width: 100%;	
+}
+	
+#unbold {
+	font-weight: normal;		
+}
+
+#kepem {
+    height: 200px;
+}
+
+.icon {
+    padding-right: 8px;
+}
+
+#hiking {
+   display: none;
+   padding-top: 20px;
+   padding-bottom: 10px;
+}
+
+#hiking img{
+   width: 100%;
+   height: 100%;
+}
+
+#hawaiihikepics {
+    display: none;
+}
+
+#arizonahikepics {
+    display: none;
+}
+
+#otherhikepics {
+    display: none;
+}
+
+
+
+
