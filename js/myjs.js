@@ -7,7 +7,12 @@ var main = function () {
         /*var height = $(".maintextgroup .currentabout").height();
         $("#kepem").css({"height" : height});*/
 
-
+/*
+		var contentPages = [];
+		var clickFunction = function (content) {
+			$(".nav").removeClass('active');
+		}
+*/
 
 		$("#clickpublications").click(function () {
 			$(this).addClass('active'); $('#clickabout').removeClass('active'); $('#clickhiking').removeClass('active');
