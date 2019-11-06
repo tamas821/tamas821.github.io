@@ -48,44 +48,6 @@ margin-top: 5px;
   cursor: pointer;
 }
 
-.maintextgroup .nav span {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    border-bottom: 0px;
-    border-top: 0px;
-    color: white;
-    float: right;
-    display: none;
-}
-
-.maintextgroup .nav span:hover {
-    color: gray;
-}
-
-
-.maintextgroup .nav {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    border-bottom: 0px;
-    border-top: 0px;
-    display: none;
-    background-color: #64646B;
-}
-
-.maintextgroup .nav .pull-right{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    padding-top: 8px;
-    border-bottom: 0px;
-    border-top: 0px;
-    height: 40px;
-    background-color: #64646B;
-}
 
 .maintextgroup {
     /*
@@ -216,25 +178,6 @@ margin-top: 5px;
     padding-right: 8px;
 }
 
-#hiking {
-   display: none;
-   padding-top: 20px;
-   padding-bottom: 10px;
-}
-
-#hiking img{
-   width: 100%;
-   height: 100%;
-}
-
-#hawaiihikepics {
-    display: none;
-}
-
-#arizonahikepics {
-    display: none;
-}
-
-#otherhikepics {
-    display: none;
+#teaching {
+     display: none;
 }
