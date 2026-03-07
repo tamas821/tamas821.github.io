@@ -17,34 +17,56 @@
 
 
 .focim {
-	color: #49494D;
+	color: #1f2937;
 	text-align: center;
+	font-weight: 700;
+	letter-spacing: 0.4px;
+	margin: 26px 0 12px;
+}
+
+body {
+    background: linear-gradient(180deg, #f7f8fc 0%, #eef2ff 100%);
+    color: #1f2937;
 }
 
 .nav ul {
 margin-top: 5px;
+padding-left: 0;
+display: flex;
+justify-content: center;
+gap: 12px;
  /*padding: 0px;   */
 }
 
 .nav li {
-  display: inline;
+  display: inline-flex;
 }
 
 .nav span {
-  color: #64646B;
-  font-size: 16px;
-  font-weight: bold;
-  padding-right: 50px;
+  color: #4b5563;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 9px 16px;
+  border-radius: 999px;
+  border: 1px solid #d7dce8;
+  background: #ffffff;
+  box-shadow: 0 3px 10px rgba(15, 23, 42, 0.06);
   text-transform: uppercase;
   text-decoration: none;
+  transition: all 0.2s ease;
 }
 
 .nav .active {
-  color: black;
+  color: #ffffff;
+  background: linear-gradient(135deg, #2f6feb, #6952d6);
+  border-color: transparent;
+  box-shadow: 0 10px 24px rgba(79, 70, 229, 0.3);
 }
 
 .nav span:hover {
-  color: Black;
+  color: #111827;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.12);
   cursor: pointer;
 }
 
@@ -56,8 +78,14 @@ margin-top: 5px;
 	*/
 	background-color: #64646B;
 	color: white;
-    border-bottom: 1px solid #dbdbdb;
-	border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #c7d2fe;
+	border-top: 1px solid #c7d2fe;
+	background: linear-gradient(135deg, #1f2937 0%, #374151 45%, #4f46e5 100%);
+	box-shadow: 0 16px 32px rgba(31, 41, 55, 0.25);
+	border-radius: 18px;
+	overflow: hidden;
+	max-width: 1100px;
+	margin: 22px auto 20px;
 	}
 	.maintextgroup h2 {
 		font-size: 22px;
@@ -88,7 +116,7 @@ margin-top: 5px;
 	}
 
 	.maintextgroup > .container{
-        background-color: #64646B;
+        background: transparent;
         padding-top: 20px;
 	    padding-bottom: 20px;
 	}
@@ -116,27 +144,33 @@ margin-top: 5px;
 
 
 .learn-more {
-  background-color: white;
-  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+  max-width: 1100px;
+  margin: 0 auto 24px;
+  padding: 22px;
   padding-top: 5px;
-  color: #49494D;
+	border-radius: 18px;
+	box-shadow: 0 16px 35px rgba(15, 23, 42, 0.08);
+  color: #374151;
 	}
 	.learn-more h3 {
 
 		font-family: 'Shift', sans-serif;
-		font-size: 18px;
+		font-size: 21px;
 		font-weight: bold;
-		padding-top: 5px;
+		padding-top: 14px;
 		padding-bottom: 10px;
+		color: #111827;
 	}
 	.learn-more p {
 		font-size: 16px;
+		line-height: 1.6;
 	}
 	.learn-more a {
-		color: #00b0ff;
+		color: #2563eb;
 	}
 	.learn-more a:hover {
-		color: #2E5CE6;
+		color: #1e40af;
 		text-decoration: none;
 
 	}
@@ -147,12 +181,13 @@ margin-top: 5px;
 }
 
 .footer {
-    background-color: #64646B;
+    background-color: #1f2937;
 	padding: 0px;
 	margin-top: 10px;
 	color: white;
-	border-bottom: 1px solid #dbdbdb;
-	border-top: 1px solid #dbdbdb;
+    	border-bottom: 1px solid #c7d2fe;
+	border-top: 1px solid #c7d2fe;
+	border-radius: 14px 14px 0 0;
 	}
 
 #szeles {
@@ -171,9 +206,10 @@ margin-top: 5px;
 }
 
 #kepem {
-    height: auto;
-    max-height: 240px;
-    max-width: 100%;
+    height: 200px;
+    border-radius: 14px;
+    border: 3px solid rgba(255, 255, 255, 0.85);
+    box-shadow: 0 12px 26px rgba(0, 0, 0, 0.25);
 }
 
 .icon {
@@ -184,52 +220,37 @@ margin-top: 5px;
      display: none;
 }
 
+.learn-more .row {
+    margin: 4px 0;
+    padding: 8px 0;
+    border-bottom: 1px solid #e5e7eb;
+}
 
-@media (max-width: 767px) {
-  .focim {
-    font-size: 24px;
-    line-height: 1.3;
-    margin-top: 15px;
-  }
+.learn-more .row:last-child {
+    border-bottom: none;
+}
 
-  .nav ul {
-    float: none !important;
-    text-align: center;
-    padding-left: 0;
-  }
+@media (max-width: 768px) {
+    .focim {
+        font-size: 28px;
+        margin-top: 20px;
+    }
 
-  .nav li {
-    display: block;
-    margin: 8px 0;
-  }
+    .nav ul {
+        flex-wrap: wrap;
+    }
 
-  .nav span {
-    display: inline-block;
-    padding-right: 0;
-    font-size: 15px;
-  }
+    .maintextgroup {
+        margin: 16px auto;
+        border-radius: 14px;
+    }
 
-  .maintextgroup h2 {
-    font-size: 20px;
-    line-height: 1.4;
-  }
+    .learn-more {
+        padding: 16px;
+    }
 
-  .maintextgroup h3 {
-    font-size: 17px;
-    line-height: 1.5;
-  }
-
-  #kepem {
-    display: block;
-    margin: 15px auto 0;
-  }
-
-  .learn-more {
-    padding: 10px;
-  }
-
-  .learn-more p {
-    font-size: 15px;
-    line-height: 1.5;
-  }
+    #kepem {
+        margin-top: 12px;
+        height: 180px;
+    }
 }
